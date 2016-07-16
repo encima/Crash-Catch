@@ -16,8 +16,8 @@ for plate in config.plates:
 			r = requests.get(config.url.format(p))
 			if r.status_code == 200 and "BMW" in r.text:
 				soup = BeautifulSoup(r.text, 'html.parser')
-				match = soup.find(id="searchResult").h3
-				print(match)
+				match = soup.find(id="searchResult")
+				print(match.h3)
 				matches.append({'plate':p, 'car': match})
 				f.writelines(match)
 			time.sleep(2)
