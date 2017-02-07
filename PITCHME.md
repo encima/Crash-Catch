@@ -39,7 +39,7 @@
 
 #### Step One: Extract Your Video
 
-<p>Your CCTV box is likely a large black hunk of Chinese excellence. Navigate the menus and find that extracting is difficult.</p>
+<p>Your CCTV box is likely a large black hunk. Navigate the well-translated menus and find that extracting is difficult.</p>
 <p>Film it on your phone and realise that you are filming at 4K a video being output to 1024*768 monitor</p>
 <p>Navigate harder and see that you must first find the video name and then plug in a FAT USB. Do that and slap it into your PC with childish glee</p>
 
@@ -57,7 +57,7 @@
 
 #HSLIDE
 
-### Step the Third: Load Into OpenCV 
+#### Step the Third: Load Into OpenCV 
 
 * Read video in and play frame-by-frame 
 * Invert video and apply smoothing 
@@ -69,7 +69,7 @@
 
 #HSLIDE 
 
-### Step 4: Squint? Guess? Maybe?
+#### Step 4: Squint? Guess? Maybe?
 
 * Create a list of possible letters
 * Some are clear but 2 chars are NOT
@@ -86,7 +86,7 @@ plates = ["H{}54 KPO","H{}54 KPD","H{}54 KFO","H{}54 KFD",
 
 #HSLIDE 
 
-### Step E: Find a Number Plate API
+#### Step E: Find a Number Plate API
 
 1. [DVLA](https://vehicleenquiry.service.gov.uk/) - Post request, NO API, need to know make Open data government...
 2. [DVLA Search](https://dvlasearch.co.uk/) - API, but costs
@@ -96,7 +96,7 @@ plates = ["H{}54 KPO","H{}54 KPD","H{}54 KFO","H{}54 KFD",
 
 #HSLIDE 
 
-### Step Sechs: Requests
+#### Step Sechs: Requests
 
 ```python 
 matches = []
@@ -122,7 +122,7 @@ f.close()
 
 #HSLIDE 
 
-### The Eighth Step: Profit
+#### The Eighth Step: Profit
 
 * We have a match!
 * Tell Police  
@@ -134,9 +134,9 @@ f.close()
     * Admit fault and buy me a new door!
 * Sleep soundly and coast off success for 6 months 
 
-# HSLIDE 
+#HSLIDE 
 
-### Real Talk: What Have We Learnt?
+#### For Realsingtons: What Have We Learnt?
 
 * These are skills that can be Learnt
 * Currently, Police are too short staffed and insurance do not have this (despite claims they do)
