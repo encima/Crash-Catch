@@ -37,8 +37,7 @@
 
 #HSLIDE 
 
-### Step One 
-#### Extract Your Video
+#### Step One: Extract Your Video
 
 <p>Your CCTV box is likely a large black hunk of Chinese excellence. Navigate the menus and find that extracting is difficult.</p>
 <p>Film it on your phone and realise that you are filming at 4K a video being output to 1024*768 monitor</p>
@@ -48,8 +47,7 @@ Result? Watch repeatedly and show people over and over
 
 #HSLIDE
 
-### Step Two
-#### Crowdsource
+#### Step Two: Crowdsource
 
 <p>Slap the video on Twitter and see who helps</p>
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If anyone can figure out the number plate of this douche, I will get you all the beers. <a href="https://t.co/siykOxg78K">pic.twitter.com/siykOxg78K</a></p>&mdash; Chris Gwilliams (@encima27) <a href="https://twitter.com/encima27/status/741157774386724864">June 10, 2016</a></blockquote>
@@ -58,4 +56,12 @@ Result? Watch repeatedly and show people over and over
 Result? Some designers photoshop it but mostly people say no
 
 #HSLIDE
+
+### Step Three: Load Into OpenCV 
+
+* Read video in and play frame-by-frame 
+* Invert video and apply smoothing 
+* Allow ROI to be selected
+
+![enhance](http://i.giphy.com/10nMEclFWTPCp2.gif)
 
