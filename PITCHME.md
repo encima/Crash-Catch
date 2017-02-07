@@ -1,6 +1,6 @@
 #HSLIDE
 
-## TO CATCH A PREDATOR
+## [TO CATCH A PREDATOR](https://github.com/encima/crash-catch)
 ### Or: How I Learned That People Suck
 
 ---
